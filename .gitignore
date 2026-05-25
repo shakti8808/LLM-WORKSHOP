@@ -1,25 +1,11 @@
-# Byte-compiled / optimized / DLL files
+# Python Cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+
+# Local Database Files
+tasks.json
 
 # Operating System Files
 .DS_Store
 Thumbs.db
-
-# Virtual Environments
-venv/
-.venv/
-env/
-ENV/
-
-# Local Environment/Secrets Configuration
-.env
-*.log
-
-# Application databases / local state (exclude to keep repo clean)
-tasks.json
-vibe_coded_submission/tasks.json
-sdd_submission/tasks.json
-vibe_coded_submission/app.log
