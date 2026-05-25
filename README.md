@@ -105,7 +105,7 @@ python3 todo.py
 
 To ensure the codebase continues to behave exactly as specified by the OpenSpec contracts:
 ```bash
-python test_todo.py
+python3 test_todo.py
 ```
 This runs the integration test suite, validating CRUD APIs, validation failures, categories, and statistics computing.
 
