@@ -1,25 +1,25 @@
-# Byte-compiled / optimized / DLL files
+# Python Bytecode and Cache Directories
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+.pytest_cache/
 
-# Operating System Files
+# OS-generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
-# Virtual Environments
-venv/
-.venv/
-env/
-ENV/
+# Test outputs
+test_tasks.json
+*.tmp
 
-# Local Environment/Secrets Configuration
-.env
-*.log
+# OpenSpec dynamic caches
+.openspec.cache/
 
-# Application databases / local state (exclude to keep repo clean)
+# Local database file
 tasks.json
-vibe_coded_submission/tasks.json
-sdd_submission/tasks.json
-vibe_coded_submission/app.log
+
