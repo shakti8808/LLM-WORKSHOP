@@ -88,7 +88,7 @@ pip install flask
 ### 2. Launch the Application
 Start the server from the root directory:
 ```bash
-python todo.py
+python3 todo.py
 ```
 * **Host**: Runs on `http://127.0.0.1:5001/` (port `5001` is selected to avoid port conflicts with AirPlay on macOS Monterey and later).
 * **Automatic Launch**: The script will automatically launch your default web browser to the homepage.
